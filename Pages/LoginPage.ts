@@ -9,7 +9,7 @@ export class LoginPage {
     }
 
     Elements = {
-        espace_createur :      ()=> this.page.getByRole('link', { name: 'Espace Créateur' }),
+        espace_createur :      ()=> this.page.getByRole('link', { name: 'Espace Créateur' }).nth(0),
         email:                 ()=> this.page.getByRole('textbox', { name: 'Votre email' }),
         motdepasse:            ()=> this.page.getByRole('textbox', { name: '********' }),
         seconnecter:           ()=> this.page.getByRole('button', { name: 'Se connecter' }),
