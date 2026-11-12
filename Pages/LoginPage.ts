@@ -31,4 +31,11 @@ export class LoginPage {
         await this.Elements.seconnecter().click()
     }
 
+
+
+
+
+
+    
+
 }
